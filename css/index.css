@@ -1,0 +1,160 @@
+body {
+    background-color: #f6f6f6;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+/*外部容器*/
+.ltm {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*顶部搜索框*/
+.ltm .ltm_search {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+}
+.ltm .ltm_search input {
+    width: 100%;
+    height: 100%;
+    background-color: #006699;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.ltm .ltm_search i {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 28px;
+    height: 33px;
+    background: url("../images/lt-sprites.png") -167px 0px;
+}
+
+
+/*内容区域*/
+.main {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*轮播图*/
+.main .main_img {
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+/*商品分类*/
+.main .main_classfiy {
+    width: 100%;
+}
+.main .main_classfiy ul{
+    width: 100%;
+    overflow: hidden;
+}
+.main .main_classfiy li {
+    float: left;
+    width: 33.33%;
+}
+.main .main_classfiy li img {
+    width: 100%;
+}
+.main .main_product {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main .main_product .product_lf {
+    float: left;
+    width: 66.666%;
+}
+.main .product_lf ul {
+    width: 100%;
+    box-sizing: border-box;
+}
+.main .product_lf li {
+    float: left;
+    width: 50%;
+}
+.main .product_lf a {
+    width: 100%;
+    float: left;
+}
+.main .product_lf img {
+    width: 100%;
+}
+
+.main .main_product .product_rg {
+    float: right;
+    width: 33.333%;
+}
+.main .main_product .product_rg img {
+    width: 100%;
+}
+
+/*品牌分类*/
+.brand {
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.brand .brand_title {
+    width: 100%;
+    height: 20%;
+}
+.brand .brand_title img {
+    width: 100%;
+}
+.brand .brand_classfiy {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+}
+.brand .brand_classfiy ul {
+    width: 100%;
+}
+.brand .brand_classfiy li {
+    float: left;
+    width: 25%;
+}
+.brand .brand_classfiy img {
+    width: 100%;
+}
+.brand .brand_bottom {
+    width: 100%;
+}
+.brand .brand_bottom img {
+    width: 100%;
+}
+
+
+/*底部工具栏*/
+.ltm .ltm_footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+.ltm .ltm_footer ul {
+    width: 100%;
+    display: flex;
+}
+.ltm .ltm_footer li {
+    flex: 1;
+    height: 100%;
+}
+.ltm .ltm_footer ul img {
+    width: auto;
+    height: 50px;
+}
